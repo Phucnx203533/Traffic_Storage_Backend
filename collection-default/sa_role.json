@@ -1,0 +1,158 @@
+[{
+  "_id": "USER",
+  "name": "Người dùng",
+  "functions": [
+    "SYS_PROJECTS_LIST",
+    "SYS_PROJECTS_DETAIL",
+    "REPORT_MONTH_SEARCH",
+    "REPORT_MONTH_DETAIL",
+    "REPORT_MONTH_ADD",
+    "REPORT_MONTH_EDIT",
+    "SYS_USER_LIST",
+    "SYS_USER_DETAIL"
+  ],
+  "status": 1,
+  "created_at": {
+    "$date": "2023-06-19T01:42:21.047Z"
+  },
+  "created_by": "admin",
+  "modified_at": {
+    "$date": "2023-06-30T02:05:44.983Z"
+  },
+  "modified_by": "admin",
+  "_class": "vnpay.nds.entity.SARoleEntity",
+  " priority": 2
+},
+{
+  "_id": "ADMIN",
+  "name": "Quản trị hệ thống",
+  "functions": [
+    "SYS_USER_CHANGE_PASS",
+    "GR_ROLE_ACTIVE",
+    "SYS_PROJECTS_EMPLOYEE_ADD",
+    "SYS_USER_DETAIL",
+    "SYS_USER_LIST",
+    "GR_ROLE_EDIT",
+    "GR_ROLE_ADD",
+    "GR_ROLE_DETAIL",
+    "SYS_PROJECTS_LIST",
+    "SYS_PROJECTS_EDIT",
+    "SYS_PROJECTS_DETAIL",
+    "SYS_USER_ADD",
+    "SYS_USER_EDIT",
+    "SYS_USER_ACTIVE",
+    "SYS_PROJECTS_ACTIVE",
+    "SYS_PROJECTS_ADD",
+    "SYS_PROJECTS_EMPLOYEE_DELETE",
+    "GR_ROLE_LIST",
+    "TEMPLATE_LIST",
+    "TEMPLATE_DETAIL",
+    "TEMPLATE_ADD",
+    "TEMPLATE_EDIT",
+    "TEMPLATE_DELETE",
+    "REPORT_MONTH_SEARCH",
+    "REPORT_MONTH_DETAIL",
+    "REPORT_MONTH_ADD",
+    "REPORT_MONTH_EDIT",
+    "SYN_REPORT_SEARCH",
+    "SYN_REPORT_DETAIL",
+    "SYN_REPORT_EXCEL",
+    "SYS_CAMERA_ADD",
+    "SYS_CAMERA_LIST",
+    "SYS_CAMERA_DETAIL",
+    "SYS_CAMERA_EDIT",
+    "PROCESS_VIOLATION_DETAIL",
+    "RESEARCH_VIOLATION",
+    "REPORT_VIEW",
+    "REPORT_STATISTICS",
+    "EDIT_FILE_VIOLATION"
+  ],
+  "status": 1,
+  "created_at": {
+    "$date": "2023-06-20T01:47:47.419Z"
+  },
+  "created_by": "admin",
+  "modified_at": {
+    "$date": "2023-06-29T04:26:34.209Z"
+  },
+  "modified_by": "admin",
+  "_class": "vnpay.nds.entity.SARoleEntity",
+  " priority": 0
+},
+{
+  "_id": "PROCESSOR",
+  "name": "Xử lý vi phạm",
+  "functions": [
+    "SYS_USER_CHANGE_PASS",
+    "PROCESS_VIOLATION_DETAIL"
+  ],
+  "status": 1,
+  "created_at": {
+    "$date": "2023-06-20T01:47:47.419Z"
+  },
+  "created_by": "admin",
+  "modified_at": {
+    "$date": "2023-06-29T04:26:34.209Z"
+  },
+  "modified_by": "admin",
+  "_class": "vnpay.nds.entity.SARoleEntity",
+  " priority": 1
+},
+{
+  "_id": "EDITOR",
+  "name": "Sửa hồ sơ vi phạm",
+  "functions": [
+    "SYS_USER_CHANGE_PASS",
+    "EDIT_FILE_VIOLATION"
+  ],
+  "status": 1,
+  "created_at": {
+    "$date": "2023-06-20T01:47:47.419Z"
+  },
+  "created_by": "admin",
+  "modified_at": {
+    "$date": "2023-06-29T04:26:34.209Z"
+  },
+  "modified_by": "admin",
+  "_class": "vnpay.nds.entity.SARoleEntity",
+  " priority": 1
+},
+{
+  "_id": "SEARCHER",
+  "name": "Tra cứu vi phạm",
+  "functions": [
+    "SYS_USER_CHANGE_PASS",
+    "RESEARCH_VIOLATION"
+  ],
+  "status": 1,
+  "created_at": {
+    "$date": "2023-06-20T01:47:47.419Z"
+  },
+  "created_by": "admin",
+  "modified_at": {
+    "$date": "2023-06-29T04:26:34.209Z"
+  },
+  "modified_by": "admin",
+  "_class": "vnpay.nds.entity.SARoleEntity",
+  " priority": 1
+},
+{
+  "_id": "REPORT",
+  "name": "Thống kê báo cáo",
+  "functions": [
+    "SYS_USER_CHANGE_PASS",
+    "REPORT_VIEW",
+    "REPORT_STATISTICS"
+  ],
+  "status": 1,
+  "created_at": {
+    "$date": "2023-06-20T01:47:47.419Z"
+  },
+  "created_by": "admin",
+  "modified_at": {
+    "$date": "2023-06-29T04:26:34.209Z"
+  },
+  "modified_by": "admin",
+  "_class": "vnpay.nds.entity.SARoleEntity",
+  " priority": 1
+}]

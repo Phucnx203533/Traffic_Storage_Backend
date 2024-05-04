@@ -1,0 +1,14 @@
+[{
+  "_id": "1",
+  "name": "Phòng CSGT Hà Nội",
+  "city": "Hà Nội",
+  "initial": "PC05-Hà Nội",
+  "created_at": {
+    "$date": "2021-10-18T10:59:14.288Z"
+  },
+  "created_by": "admin",
+  "modified_at": {
+    "$date": "2021-10-18T10:59:14.288Z"
+  },
+  "modified_by": "admin"
+}]

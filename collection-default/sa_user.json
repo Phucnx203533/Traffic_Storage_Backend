@@ -1,0 +1,47 @@
+[{
+  "_id": "admin",
+  "email": "xuanphuc.ng202@gmail.com",
+  "password": "$2a$10$BR4vzidgvlLtdJfu46WIAuWZj5OY2PXobFcrtcWCjqUbqawnhI/3.",
+  "phone": "0926339426",
+  "address": "Hanoi1234",
+  "full_name": "Administrator",
+  "no": "334343434",
+  "role": "ADMIN",
+  "working_unit": "Phòng CSGT Hà Nội",
+  "status": 1,
+  "last_login": {
+    "$date": "2023-10-09T03:44:43.784Z"
+  },
+  "fail_login_count": 0,
+  "modified_at": {
+    "$date": "2023-10-09T03:44:43.796Z"
+  },
+  "modified_by": "admin",
+  "_class": "aithings.camAI.controlpanel.entity.SAUserEntity"
+},
+{
+  "_id": "admin1",
+  "email": "phuc.nx203533@sis.hust.edu.vn",
+  "password": "$2a$10$G2sHbDScYxoli/b4TcDmkuX5dj0XaF8uFXtQYbp2Z9a2ZCSDSVm1S",
+  "phone": "0123456789",
+  "address": "Ha Noi",
+  "full_name": "Phuc Nguyen",
+  "date_of_birth": {
+    "$date": "2023-09-07T00:00:00.000Z"
+  },
+  "no": "6576868685676",
+  "role": "ADMIN",
+  "working_unit": "Phòng CSGT Hà Nội",
+  "status": 1,
+  "reset_pass": 1,
+  "fail_login_count": 0,
+  "created_at": {
+    "$date": "2023-09-06T07:00:53.155Z"
+  },
+  "created_by": "admin",
+  "modified_at": {
+    "$date": "2023-09-06T07:00:53.155Z"
+  },
+  "modified_by": "admin",
+  "_class": "aithings.camAI.controlpanel.entity.SAUserEntity"
+}]

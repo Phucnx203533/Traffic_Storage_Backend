@@ -1,0 +1,272 @@
+[{
+  "_id": "SYS",
+  "description": "Quản trị hệ thống",
+  "sub_functions": [
+    {
+      "_id": "SUB_SYS_USER",
+      "description": "Quản lý người dùng",
+      "authorities": [
+        {
+          "_id": "SYS_USER_LIST",
+          "description": "Xem danh sách"
+        },
+        {
+          "_id": "SYS_USER_DETAIL",
+          "description": "Xem chi tiết"
+        },
+        {
+          "_id": "SYS_USER_ADD",
+          "description": "Thêm mới"
+        },
+        {
+          "_id": "SYS_USER_EDIT",
+          "description": "Chỉnh sửa"
+        },
+        {
+          "_id": "SYS_USER_ACTIVE",
+          "description": "Khóa/Mở khóa"
+        },
+        {
+          "_id": "SYS_USER_CHANGE_PASS",
+          "description": "Đặt lại mật khẩu"
+        }
+      ]
+    },
+    {
+      "_id": "SUB_SYS_GROUP_ROLE",
+      "description": "Quản lý nhóm quyền",
+      "authorities": [
+        {
+          "_id": "GR_ROLE_LIST",
+          "description": "Xem danh sách"
+        },
+        {
+          "_id": "GR_ROLE_DETAIL",
+          "description": "Xem chi tiết"
+        },
+        {
+          "_id": "GR_ROLE_ADD",
+          "description": "Thêm mới"
+        },
+        {
+          "_id": "GR_ROLE_EDIT",
+          "description": "Chỉnh sửa"
+        },
+        {
+          "_id": "GR_ROLE_ACTIVE",
+          "description": "Khóa/Mở khóa"
+        }
+      ]
+    },
+    {
+      "_id": "SUB_SYS_LOG",
+      "description": "Nhật ký người dùng",
+      "authorities": [
+        {
+          "_id": "LOG_LIST",
+          "description": "Xem danh sách"
+        }
+      ]
+    },
+    {
+      "_id": "SUB_SYS_PROJECTS",
+      "description": "Quản lý dự án",
+      "authorities": [
+        {
+          "_id": "SYS_PROJECTS_LIST",
+          "description": "Xem danh sách dự án"
+        },
+        {
+          "_id": "SYS_PROJECTS_DETAIL",
+          "description": "Xem chi tiết dự án"
+        },
+        {
+          "_id": "SYS_PROJECTS_ADD",
+          "description": "Thêm dự án"
+        },
+        {
+          "_id": "SYS_PROJECTS_EDIT",
+          "description": "Chỉnh sửa dự án"
+        },
+        {
+          "_id": "SYS_PROJECTS_EMPLOYEE_ADD",
+          "description": "Thêm thành viên vào dự án"
+        },
+        {
+          "_id": "SYS_PROJECTS_EMPLOYEE_DELETE",
+          "description": "Xóa thành viên khỏi dự án"
+        },
+        {
+          "_id": "SYS_PROJECTS_ACTIVE",
+          "description": "Thay đổi trạng thái dự án"
+        }
+      ]
+    },
+    {
+      "_id": "SUB_TEMPLATE",
+      "description": "Quản lý Template",
+      "authorities": [
+        {
+          "_id": "TEMPLATE_LIST",
+          "description": "Xem danh sách"
+        },
+        {
+          "_id": "TEMPLATE_DETAIL",
+          "description": "Xem chi tiết"
+        },
+        {
+          "_id": "TEMPLATE_ADD",
+          "description": "Thêm mới"
+        },
+        {
+          "_id": "TEMPLATE_EDIT",
+          "description": "Chỉnh sửa"
+        },
+        {
+          "_id": "TEMPLATE_DELETE",
+          "description": "Xóa template"
+        }
+      ]
+    },
+    {
+      "_id": "SUB_SYS_SUMMARY_REPORT",
+      "description": "Quản lý báo cáo tổng hợp",
+      "authorities": [
+        {
+          "_id": "SYS_SREPORT_LIST",
+          "description": "Xem danh sách báo cáo tổng hợp"
+        },
+        {
+          "_id": "SYS_SREPORT_DETAIL",
+          "description": "Xem chi tiết báo cáo tổng hợp"
+        },
+        {
+          "_id": "SYS_SREPORT_ADD",
+          "description": "Tạo báo cáo tổng hợp"
+        },
+        {
+          "_id": "SYS_SREPORT_EXPORT",
+          "description": "Xuất file báo cáo tổng hợp"
+        }
+      ]
+    },
+    {
+      "_id": "SUB_SYS_CAMERA",
+      "description": "Quản lý camera",
+      "authorities": [
+        {
+          "_id": "SYS_CAMERA_LIST",
+          "description": "Xem danh sách camera"
+        },
+        {
+          "_id": "SYS_CAMERA_ADD",
+          "description": "Thêm mơi camera"
+        },
+        {
+          "_id": "SYS_CAMERA_DETAIL",
+          "description": "Xem chi tiết camera"
+        },
+        {
+          "_id": "SYS_CAMERA_EDIT",
+          "description": "Thay đổi thông tin camera"
+        }
+      ]
+    }
+  ],
+  "order": 0,
+  "_class": "vnpay.nds.entity.SAFunctionEntity"
+},
+{
+  "_id": "REPORT",
+  "description": "Quản trị báo cáo",
+  "sub_functions": [
+    {
+      "_id": "REPORT_MONTH",
+      "description": "Báo cáo hàng tháng",
+      "authorities": [
+        {
+          "_id": "REPORT_VIEW",
+          "description": "Xem báo cáo"
+        },
+        {
+          "_id": "REPORT_STATISTICS",
+          "description": "Thống kê báo cáo"
+        }
+      ]
+    },
+    {
+      "_id": "SYN_REPORT_MONTH",
+      "description": "Báo cáo tổng hợp tháng",
+      "authorities": [
+        {
+          "_id": "SYN_REPORT_SEARCH",
+          "description": "Tra cứu"
+        },
+        {
+          "_id": "SYN_REPORT_DETAIL",
+          "description": "Xem chi tiết"
+        },
+        {
+          "_id": "SYN_REPORT_EXCEL",
+          "description": "Xuất excel"
+        }
+      ]
+    }
+  ],
+  "_class": "com.vnpay.vnchat.backend.entity.FunctionEntity",
+  "order": 0
+},
+{
+  "_id": "PROCESS",
+  "description": "Xử lý vi phạm",
+  "sub_functions": [
+    {
+      "_id": "SUB_PROCESS",
+      "description": "Xử lí vi phạm",
+      "authorities": [
+        {
+          "_id": "PROCESS_VIOLATION_DETAIL",
+          "description": "Xem danh sách vi phạm"
+        }
+      ]
+    }
+  ],
+  "_class": "com.vnpay.vnchat.backend.entity.FunctionEntity",
+  "order": 0
+},
+{
+  "_id": "EDIT",
+  "description": "Chỉnh sửa",
+  "sub_functions": [
+    {
+      "_id": "SUB_EDIT",
+      "description": "Xử lí vi phạm",
+      "authorities": [
+        {
+          "_id": "EDIT_FILE_VIOLATION",
+          "description": "Chỉnh sửa hồ sơ vi phạm"
+        }
+      ]
+    }
+  ],
+  "_class": "com.vnpay.vnchat.backend.entity.FunctionEntity",
+  "order": 0
+},
+{
+  "_id": "RESEARCH",
+  "description": "Tra cứu",
+  "sub_functions": [
+    {
+      "_id": "SUB_RESEARCH",
+      "description": "Tra cứu vi phạm",
+      "authorities": [
+        {
+          "_id": "RESEARCH_VIOLATION",
+          "description": "Tra cứu vi phạm"
+        }
+      ]
+    }
+  ],
+  "_class": "com.vnpay.vnchat.backend.entity.FunctionEntity",
+  "order": 0
+}]

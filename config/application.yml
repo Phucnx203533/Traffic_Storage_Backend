@@ -1,0 +1,58 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /Aithings-camAi
+    session:
+      timeout: 60m
+  error:
+    whitelabel:
+      enabled: false
+logging:
+  config: config/logback.xml
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    cache: false
+    resources:
+      static-locations: classpath:/static/
+      cache-period: 0
+  jpa:
+    hibernate:
+      ddl-auto: none
+  activemq:
+    in-memory: true
+    pool:
+      enabled: false
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: camAi
+  profiles:
+    active: dev
+  application:
+    name: nds_portal
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size : 20MB
+  mvc:
+    async:
+      request-timeout: 9999999999999999
+
+minio:
+  accessToken: minioadmin
+  secrete : minioadmin
+  url: http://127.0.0.1:9000
+
+app:
+  jwtSecret: =============================================Phuc=============================================
+  jwtExpiration: 86400000
+
+mail:
+  host: smtp.gmail.com
+  port: 587
+  protocol: smtp
+  username: alertott@gmail.com
+  name-display: Ai-ThingsLAB
+  password: dG9nd3d5b2tpZHhnaWJiYQ==
+  url: http://localhost:8888/Aithings-camAi/
