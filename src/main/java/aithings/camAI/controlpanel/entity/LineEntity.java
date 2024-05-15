@@ -5,10 +5,12 @@ public class LineEntity {
     private String name;
 
     private Integer id;
-    private Integer[] location ={0,0,0,0};
+    private Double[] location;
 
     private String[] attributes;
+    private Integer direct;
 
+    private Integer priority;
     private Long createdAt;
 
     public String getName() {
@@ -27,11 +29,11 @@ public class LineEntity {
         this.id = id;
     }
 
-    public Integer[] getLocation() {
+    public Double[] getLocation() {
         return location;
     }
 
-    public void setLocation(Integer[] location) {
+    public void setLocation(Double[] location) {
         this.location = location;
     }
 
@@ -39,8 +41,8 @@ public class LineEntity {
         return attributes;
     }
 
-    public void setAttributes(String[] attributes) {
-        this.attributes = attributes;
+    public void setAttributes(String[] attribute) {
+        this.attributes= attribute;
     }
 
     public Long getCreatedAt() {
@@ -49,5 +51,21 @@ public class LineEntity {
 
     public void setCreatedAt(Long createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public Integer getDirect() {
+        return direct;
+    }
+
+    public void setDirect(Integer direct) {
+        this.direct = direct;
+    }
+
+    public Integer getPriority() {
+        return priority;
+    }
+
+    public void setPriority(Integer priority) {
+        this.priority = priority;
     }
 }

@@ -26,6 +26,7 @@ public enum ResCode {
     CAMERA_NOT_EXIST("109","ID camera không tồn tại, vui lòng kiểm tra lại"),
     VIOLATION_TYPE_TRAFFIC_NOT_FOUND("110","Loại phương tiện không chính xác! Vui lòng kiểm tra lại"),
     DEVICE_NOT_EXIST("111","Device không tồn tại"),
+    RULE_CONFIG_NOT_EXIST("112","Cài đặt luật lệ kẻ vẽ chưa tồn tại")
     ;
 
 

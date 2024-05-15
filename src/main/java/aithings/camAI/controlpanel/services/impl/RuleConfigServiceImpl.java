@@ -26,6 +26,9 @@ public class RuleConfigServiceImpl implements RuleConfigService {
         Optional<RuleConfigEntity> optionalRuleConfigEntity = ruleConfigRepository.findById(cameraId);
         if (optionalRuleConfigEntity.isPresent()) {
             RuleConfigEntity ruleConfigEntity = optionalRuleConfigEntity.get();
+            ruleConfigEntity.getLineEntities().forEach(entity ->{
+                entity.setDirect(entity.getDirect()>0?1:entity.getDirect()<0?-1:0);
+            });
             return ruleConfigEntity;
         }
         return null;

@@ -4,9 +4,9 @@ public class TrafficLightEntity {
 
     private String name;
     private Integer id;
-    private Integer[] locaiton ={0,0,0,0};
+    private Double[] location ;
 
-
+    private Integer priority;
     private Long createdAt;
 
     public String getName() {
@@ -25,12 +25,12 @@ public class TrafficLightEntity {
         this.id = id;
     }
 
-    public Integer[] getLocaiton() {
-        return locaiton;
+    public Double[] getLocation() {
+        return location;
     }
 
-    public void setLocaiton(Integer[] locaiton) {
-        this.locaiton = locaiton;
+    public void setLocation(Double[] location) {
+        this.location = location;
     }
 
     public Long getCreatedAt() {
@@ -39,5 +39,13 @@ public class TrafficLightEntity {
 
     public void setCreatedAt(Long createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public Integer getPriority() {
+        return priority;
+    }
+
+    public void setPriority(Integer priority) {
+        this.priority = priority;
     }
 }
